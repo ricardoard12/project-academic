@@ -30,11 +30,11 @@ public class Venda {
 	private Integer id;
 	
 	@ManyToOne
-	@JoinColumn(name = "ID_CLIENTE")
+	@JoinColumn(name = "ID_CLIENTE", nullable= false)
 	private Cliente cliente;
 	
 	@ManyToOne
-	@JoinColumn(name = "ID_PRODUTO")
+	@JoinColumn(name = "ID_PRODUTO", nullable = false)
 	private Produto produto;
 	
 	@Column(name = "DATA_VENDA")
