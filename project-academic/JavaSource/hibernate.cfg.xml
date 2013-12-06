@@ -5,10 +5,12 @@
  <session-factory name="">
   <property name="hibernate.connection.driver_class">org.gjt.mm.mysql.Driver</property>
   <property name="hibernate.connection.password">fgt900ndos</property>
-  <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1/project</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost/project</property>
   <property name="hibernate.connection.username">root</property>
   <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
   <property name="hibernate.hbm2ddl.auto">update</property>
   <mapping class="com.project.sistema.cliente.Cliente"/>
+  <mapping class="com.project.sistema.produto.Produto"/>
+  <mapping class="com.project.sistema.venda.Venda"/>
  </session-factory>
 </hibernate-configuration>

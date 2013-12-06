@@ -11,7 +11,8 @@ import javax.persistence.Table;
 
 /**
  * @author Isaac
- *
+ * Classe criada para receber os cadastros dos clientes que forem cadastrar
+ * neste pequeno programa web
  */
 
 @Entity
